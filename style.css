@@ -195,9 +195,35 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
+  opacity: 0;
+  visibility: hidden;
 }
-.popup__body{}
-.popup__content{}
-.popup__close{}
-.popup_title{}
-.popup__text{}
+.popup__body{
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px 30px 10px;
+}
+.popup__content{
+  background-color: #fff;
+  color #000;
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+}
+.popup__close{
+  position: absolute;
+  right: 10;
+  top: 10;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+.popup_title{
+  font-size: 40px;
+  margin: 0px 0px 1em 0px;
+}
+.popup__text{
+
+}
